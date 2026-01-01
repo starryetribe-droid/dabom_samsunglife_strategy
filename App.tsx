@@ -22,10 +22,10 @@ import { Footer } from './components/sections/Footer';
 
 function App() {
   return (
-    <div className="relative h-screen w-full bg-monimo-bg text-monimo-black font-sans overflow-hidden">
+    <div className="relative w-full bg-monimo-bg text-monimo-black font-sans">
       <Navbar />
 
-      <main className="h-full w-full overflow-y-scroll snap-y snap-mandatory scroll-smooth no-scrollbar">
+      <main className="w-full">
         <Hero />
         <AllInOneSolution />
         <Expertise />
