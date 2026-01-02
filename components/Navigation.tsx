@@ -2,6 +2,10 @@ import React from 'react';
 
 export const Navbar: React.FC = () => {
   const menuItems = [
+    { href: "#b2b-pivot", label: "B2B Pivot" },
+    { href: "#routine-scenarios", label: "Routine Scenarios" },
+    { href: "#market-context", label: "Market Context" },
+    { href: "#hq-feelconomy", label: "HQ & Feelconomy" },
     { href: "#all-in-one", label: "All-in-One" },
     { href: "#expertise", label: "전문성" },
     { href: "#clinical-evidence", label: "임상 근거" },

@@ -3,6 +3,10 @@ import { Navbar } from './components/Navigation';
 import { AllInOneSolution } from './components/sections/AllInOneSolution';
 import { Expertise } from './components/sections/Expertise';
 import { Hero } from './components/sections/Hero';
+import { B2BPivot } from './components/sections/B2BPivot';
+import { RoutineScenarios } from './components/sections/RoutineScenarios';
+import { MarketContext } from './components/sections/MarketContext';
+import { HqFeelconomy } from './components/sections/HqFeelconomy';
 import { CoreService } from './components/sections/CoreService';
 import { KeyPillars } from './components/sections/KeyPillars';
 import { EcosystemStrategy } from './components/sections/EcosystemStrategy';
@@ -22,11 +26,15 @@ import { Footer } from './components/sections/Footer';
 
 function App() {
   return (
-    <div className="relative w-full bg-monimo-bg text-monimo-black font-sans">
+    <div className="relative h-screen w-full bg-monimo-bg text-monimo-black font-sans overflow-hidden">
       <Navbar />
 
-      <main className="w-full">
+      <main className="h-full w-full overflow-y-scroll scroll-smooth no-scrollbar">
         <Hero />
+        <B2BPivot />
+        <RoutineScenarios />
+        <MarketContext />
+        <HqFeelconomy />
         <AllInOneSolution />
         <Expertise />
         <ClinicalEvidence />
