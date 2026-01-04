@@ -84,10 +84,10 @@ export const Scenarios: React.FC = () => {
             <ScenarioCard
               icon="fa-solid fa-hourglass-start"
               iconColor="bg-yellow-100 text-yellow-600"
-              title="수면 진입 10분 전 루틴 형성"
+              title="수면 진입 1시간 전 루틴 형성"
               asIs='[자러 가기] 버튼 클릭 → 앱 종료 (체류 시간 확보 실패)'
-              toBe={<span>취침 10분 전 알림으로, 하루를 마무리하는 '회상 루틴'을 정착시켜<br />앱 체류시간 확보</span>}
-              aiMessage={<span>OO님, <strong>주무시기 10분 전</strong>이네요. <strong>오늘 하루는 어떠셨나요?</strong><br />다봄이와 기억을 떠올리며 편안하게 하루를 마무리해요.</span>}
+              toBe={<span>취침 1시간 전 알림으로, 하루를 마무리하는 '회상 루틴'을 정착시켜<br />앱 체류시간 확보</span>}
+              aiMessage={<span>OO님, <strong>주무시기 1시간 전</strong>이네요. <strong>오늘 하루는 어떠셨나요?</strong><br />다봄이와 기억을 떠올리며 편안하게 하루를 마무리해요.</span>}
             />
           </FadeIn>
         </div>
