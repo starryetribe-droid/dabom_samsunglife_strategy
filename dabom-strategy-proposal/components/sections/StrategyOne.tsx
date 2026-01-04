@@ -102,7 +102,7 @@ export const StrategyOne: React.FC = () => {
     );
 
     return (
-        <SectionWrapper id="strategy-1" className="bg-white relative overflow-hidden" pageNumber={17}>
+        <SectionWrapper id="strategy-1" className="bg-white relative overflow-hidden" pageNumber={7}>
             <div className="max-w-[1440px] mx-auto px-6 w-full flex flex-col gap-12">
                 {/* Top Section */}
                 <div className="flex flex-col md:flex-row items-end justify-between gap-10">

@@ -5,7 +5,7 @@ import { GlassCard } from '../ui/GlassCard';
 
 export const DabomTCareIndex: React.FC = () => {
   return (
-    <SectionWrapper id="tcare-index" className="bg-white" pageNumber={21}>
+    <SectionWrapper id="tcare-index" className="bg-white" pageNumber={11}>
       {/* Decorative Background Elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
         <div className="absolute top-[20%] left-[-10%] w-[40%] h-[40%] bg-blue-100/30 rounded-full blur-[120px]"></div>

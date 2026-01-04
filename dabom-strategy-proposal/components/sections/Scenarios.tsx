@@ -39,7 +39,7 @@ const ScenarioCard: React.FC<ScenarioCardProps> = ({ icon, iconColor, title, asI
 
 export const Scenarios: React.FC = () => {
   return (
-    <SectionWrapper id="scenarios" className="bg-[#F8FAFC]" pageNumber={20}>
+    <SectionWrapper id="scenarios" className="bg-[#F8FAFC]" pageNumber={10}>
       <div className="max-w-7xl mx-auto px-6 w-full">
         <div className="text-center mb-12">
           <FadeIn>

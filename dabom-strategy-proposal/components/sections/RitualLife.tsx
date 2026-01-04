@@ -4,7 +4,7 @@ import { FadeIn } from '../ui/FadeIn';
 
 export const RitualLife: React.FC = () => {
     return (
-        <SectionWrapper id="ritual-life" className="bg-white" pageNumber={11}>
+        <SectionWrapper id="ritual-life" className="bg-white" pageNumber={17}>
             <div className="max-w-7xl mx-auto px-6 w-full h-full flex flex-col justify-center items-center">
                 <FadeIn>
                     <div className="mb-12 text-center">

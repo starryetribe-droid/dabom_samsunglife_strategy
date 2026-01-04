@@ -4,7 +4,7 @@ import { FadeIn } from '../ui/FadeIn';
 
 export const DigitalDetox: React.FC = () => {
     return (
-        <SectionWrapper id="digital-detox" className="bg-white" pageNumber={10}>
+        <SectionWrapper id="digital-detox" className="bg-white" pageNumber={16}>
             <div className="max-w-7xl mx-auto px-6 w-full h-full flex flex-col justify-center items-center">
                 <FadeIn>
                     <div className="mb-6 text-center">
@@ -193,7 +193,7 @@ export const DigitalDetox: React.FC = () => {
                     <h3 className="text-3xl md:text-4xl font-bold text-gray-900 leading-tight word-keep">
                         '수면 시작 - 기상' 루틴을 앱과 함께하며<br />
                         <span className="text-blue-600 relative inline-block mt-2">
-                            DAU 및 체류 시간의 안정적 확보
+                            DAU 및 체류 시간 확보
                             <span className="absolute bottom-1 left-0 w-full h-3 bg-blue-100 -z-10 bg-opacity-60"></span>
                         </span>
                     </h3>
