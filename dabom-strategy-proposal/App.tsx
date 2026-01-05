@@ -23,6 +23,7 @@ import { ConceptPivot } from './components/sections/ConceptPivot';
 import { Gamification } from './components/sections/Gamification';
 import { DigitalDetox } from './components/sections/DigitalDetox';
 import { RitualLife } from './components/sections/RitualLife';
+import { RoutineScenarios } from './components/sections/RoutineScenarios';
 
 import { Overview } from './components/sections/Overview';
 
@@ -76,13 +77,14 @@ function App() {
           label="Part 3"
         />
         <B2BPivot />
+        <RoutineScenarios />
 
         {/* Interim 4: Before Concept Pivot */}
         <InterimSection
           id="interim-4"
           title="Concept Pivot:\n즐거운 몰입"
           description="지루한 훈련을 아닌, 게임처럼 즐겁고\n리추얼처럼 지속 가능한 경험을 설계합니다."
-          pageNumber={18}
+          pageNumber={19}
           theme="blue"
           label="Part 4"
         />

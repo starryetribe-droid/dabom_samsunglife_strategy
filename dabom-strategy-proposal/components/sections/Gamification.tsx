@@ -4,7 +4,7 @@ import { FadeIn } from '../ui/FadeIn';
 
 export const Gamification: React.FC = () => {
     return (
-        <SectionWrapper id="gamification" className="bg-gray-50" pageNumber={20}>
+        <SectionWrapper id="gamification" className="bg-gray-50" pageNumber={21}>
             <div className="max-w-[1400px] mx-auto px-6 w-full h-full flex flex-col justify-center">
                 <FadeIn>
                     <div className="mb-16 text-center">
