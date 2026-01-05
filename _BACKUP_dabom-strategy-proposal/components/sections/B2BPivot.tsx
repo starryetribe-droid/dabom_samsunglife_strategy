@@ -4,7 +4,7 @@ import { FadeIn } from '../ui/FadeIn';
 
 export const B2BPivot: React.FC = () => {
     return (
-        <SectionWrapper id="b2b-pivot" className="bg-white relative overflow-hidden" pageNumber={13}>
+        <SectionWrapper id="b2b-pivot" className="bg-white relative overflow-hidden" pageNumber={17}>
             <div className="max-w-[1280px] mx-auto px-6 h-full flex flex-col justify-center">
                 <FadeIn>
                     <div className="text-center mb-6">

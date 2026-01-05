@@ -4,7 +4,7 @@ import { FadeIn } from '../ui/FadeIn';
 
 export const ConceptPivot: React.FC = () => {
     return (
-        <SectionWrapper id="concept-pivot" className="bg-white" pageNumber={14}>
+        <SectionWrapper id="concept-pivot" className="bg-white" pageNumber={19}>
             <div className="max-w-7xl mx-auto px-6 w-full h-full flex flex-col justify-center">
                 <FadeIn>
                     <div className="mb-12 text-center">

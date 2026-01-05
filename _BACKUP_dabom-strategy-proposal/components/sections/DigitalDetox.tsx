@@ -4,7 +4,7 @@ import { FadeIn } from '../ui/FadeIn';
 
 export const DigitalDetox: React.FC = () => {
     return (
-        <SectionWrapper id="digital-detox" className="bg-white" pageNumber={16}>
+        <SectionWrapper id="digital-detox" className="bg-white" pageNumber={21}>
             <div className="max-w-7xl mx-auto px-6 w-full h-full flex flex-col justify-center items-center">
                 <FadeIn>
                     <div className="mb-6 text-center">
