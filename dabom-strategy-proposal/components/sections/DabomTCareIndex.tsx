@@ -5,7 +5,7 @@ import { GlassCard } from '../ui/GlassCard';
 
 export const DabomTCareIndex: React.FC = () => {
   return (
-    <SectionWrapper id="tcare-index" className="bg-white" pageNumber={11}>
+    <SectionWrapper id="tcare-index" className="bg-gray-50" pageNumber={12}>
       {/* Decorative Background Elements */}
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
         <div className="absolute top-[20%] left-[-10%] w-[40%] h-[40%] bg-blue-100/30 rounded-full blur-[120px]"></div>
@@ -17,7 +17,7 @@ export const DabomTCareIndex: React.FC = () => {
         <div className="text-center mb-20">
           <FadeIn>
             <span className="text-monimo-blue font-bold tracking-wider text-[15px] uppercase mb-4 block">Strategic Intelligence</span>
-            <h2 className="text-4xl md:text-6xl font-extrabold mb-6 text-monimo-black leading-tight tracking-tight break-keep">
+            <h2 className="text-4xl md:text-5xl font-extrabold mb-6 text-monimo-black leading-tight tracking-tight break-keep">
               데이터를 넘어 <span className="text-monimo-blue">가치</span>로,<br />
               <span className="text-monimo-blue">다봄 마음 건강 통합 지수</span>
             </h2>

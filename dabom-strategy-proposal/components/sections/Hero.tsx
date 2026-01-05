@@ -4,7 +4,7 @@ import { SectionWrapper } from './SectionWrapper';
 
 export const Hero: React.FC = () => {
   return (
-    <SectionWrapper id="top" className="relative overflow-hidden bg-[#F3F5F7]" pageNumber={1}>
+    <SectionWrapper id="top" className="relative overflow-hidden bg-[#F3F5F7]">
       <div className="absolute inset-0 w-full h-full pointer-events-none select-none">
         <div className="absolute -top-[10%] -right-[10%] w-[60%] h-[60%] rounded-full bg-blue-300/30 blur-[100px] animate-pulse" style={{ animationDuration: '8s' }}></div>
         <div className="absolute -bottom-[10%] -left-[10%] w-[60%] h-[60%] rounded-full bg-indigo-300/30 blur-[100px] animate-pulse" style={{ animationDelay: '1s', animationDuration: '10s' }}></div>
@@ -22,7 +22,7 @@ export const Hero: React.FC = () => {
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-[#246BEB] to-[#1B5AC2]">더헬스 X 다봄</span>
           </h1>
           <p className="text-xl md:text-2xl text-monimo-gray max-w-3xl mx-auto leading-relaxed mb-12 font-medium break-keep">
-            2026. 01. 06
+            2026. 01. 06.
           </p>
         </FadeIn>
       </div>

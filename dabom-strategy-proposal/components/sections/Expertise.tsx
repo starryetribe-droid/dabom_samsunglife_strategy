@@ -11,7 +11,7 @@ import exp5 from '../../src/assets/images/expertise/expertise_5.png';
 
 export const Expertise: React.FC = () => {
     return (
-        <SectionWrapper id="expertise" className="bg-[#F8FAFC] relative overflow-hidden" pageNumber={4}>
+        <SectionWrapper id="expertise" className="bg-white" pageNumber={4}>
             <div className="max-w-[1440px] mx-auto px-6 w-full relative z-10">
 
                 {/* Header */}

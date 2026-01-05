@@ -5,7 +5,7 @@ import { SectionWrapper } from './SectionWrapper';
 
 export const BrainFitness: React.FC = () => {
   return (
-    <SectionWrapper id="brain-fitness" className="bg-monimo-bg" pageNumber={12}>
+    <SectionWrapper id="brain-fitness" className="bg-white" pageNumber={5}>
       <div className="max-w-7xl mx-auto px-6 w-full">
         {/* Header */}
         <div className="text-center mb-12 md:mb-16">

@@ -2,15 +2,10 @@ import React from 'react';
 
 export const Navbar: React.FC = () => {
   const menuItems = [
-    { href: "#b2b-pivot", label: "B2B Pivot" },
-    { href: "#routine-scenarios", label: "Routine Scenarios" },
-    { href: "#market-context", label: "Market Context" },
-    { href: "#hq-feelconomy", label: "HQ & Feelconomy" },
-    { href: "#all-in-one", label: "All-in-One" },
-    { href: "#expertise", label: "전문성" },
     { href: "#clinical-evidence", label: "임상 근거" },
     { href: "#mental-health-checkup", label: "마음 검진" },
-    { href: "#ecosystem", label: "선순환 사이클" },
+    { href: "#expertise", label: "전문성" },
+    { href: "#brain-fitness", label: "브레인 피트니스" },
     { href: "#key-pillars", label: "핵심 전략" },
     { href: "#core-service", label: "핵심 서비스" },
     { href: "#strategy-1", label: "전략 1: 능동 케어" },
@@ -18,11 +13,11 @@ export const Navbar: React.FC = () => {
     { href: "#strategy-3", label: "전략 3: 연결성" },
     { href: "#scenarios", label: "시나리오" },
     { href: "#tcare-index", label: "T-Care 지표" },
-    { href: "#brain-fitness", label: "브레인 피트니스" },
-    { href: "#ux-guide", label: "UX 가이드" },
-    { href: "#impact", label: "기대 효과" },
-    { href: "#roadmap", label: "로드맵" },
-    { href: "#future-vision", label: "미래 비전" },
+    { href: "#b2b-pivot", label: "B2B Pivot" },
+    { href: "#concept-pivot", label: "Concept Pivot" },
+    { href: "#gamification", label: "Gamification" },
+    { href: "#digital-detox", label: "Digital Detox" },
+    { href: "#ritual-life", label: "Ritual Life" },
   ];
 
   const handleClick = (e: React.MouseEvent<HTMLAnchorElement>, href: string) => {

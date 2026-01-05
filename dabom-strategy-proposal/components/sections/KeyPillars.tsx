@@ -40,7 +40,7 @@ export const KeyPillars: React.FC = () => {
   ];
 
   return (
-    <SectionWrapper id="key-pillars" className="bg-gray-50" pageNumber={5}>
+    <SectionWrapper id="key-pillars" className="bg-monimo-bg" pageNumber={6}>
       <div className="max-w-7xl mx-auto px-6 w-full">
         <div className="text-center mb-12">
           <FadeIn>

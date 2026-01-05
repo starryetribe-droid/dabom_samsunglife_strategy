@@ -126,7 +126,7 @@ export const Gamification: React.FC = () => {
                                 <h4 className="text-lg font-bold text-gray-900 mb-1">Deep Focus</h4>
                                 <p className="text-xs text-indigo-600 font-medium mb-4 tracking-tight whitespace-pre-line">
                                     산만한 세상 속,<br />
-                                    오직 나에게만 주파수를 맞추는 시간.
+                                    오직 나에게만 주파수를 맞추는 시간
                                 </p>
 
                                 <div className="border-t border-gray-200 pt-3">
@@ -191,7 +191,7 @@ export const Gamification: React.FC = () => {
                                     <h4 className="text-lg font-bold text-gray-900 mb-1">Memory Lane</h4>
                                     <p className="text-xs text-orange-700 font-medium mb-4 tracking-tight whitespace-pre-line">
                                         희미해진 어제보다<br />
-                                        더 선명하게 빛나는 오늘의 나.
+                                        더 선명하게 빛나는 오늘의 나
                                     </p>
 
                                     <div className="border-t border-gray-200 pt-3">
@@ -251,7 +251,7 @@ export const Gamification: React.FC = () => {
                                     <h4 className="text-lg font-bold text-gray-900 mb-1">Golden Hour</h4>
                                     <p className="text-xs text-yellow-600 font-medium mb-4 tracking-tight whitespace-pre-line">
                                         가장 눈부신 오늘의 당신,<br />
-                                        이 찬란한 기록의 주인공입니다.
+                                        이 찬란한 기록의 주인공입니다
                                     </p>
 
                                     <div className="border-t border-gray-200 pt-3">
@@ -315,7 +315,7 @@ export const Gamification: React.FC = () => {
                                 <h4 className="text-lg font-bold text-gray-900 mb-1">Healing Vibe</h4>
                                 <p className="text-xs text-emerald-700 font-medium mb-4 tracking-tight whitespace-pre-line">
                                     가끔은 멈춰도 괜찮아요,<br />
-                                    당신의 계절은 충분히 아름다우니까.
+                                    당신의 계절은 충분히 아름다우니까
                                 </p>
 
                                 <div className="border-t border-gray-200 pt-3">

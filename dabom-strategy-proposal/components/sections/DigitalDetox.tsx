@@ -22,9 +22,9 @@ export const DigitalDetox: React.FC = () => {
                     </div>
                 </FadeIn>
 
-                <div className="flex flex-col lg:flex-row gap-6 lg:gap-8 items-center justify-center w-full mb-8">
+                <div className="flex flex-col lg:flex-row gap-6 lg:gap-16 items-center justify-center w-full mb-8">
                     {/* Left: Mobile App Screen (Swapped from Right) */}
-                    <div className="flex-1 w-full max-w-[380px] order-1">
+                    <div className="w-full max-w-[380px] order-1">
                         <FadeIn delay={200}>
                             <div className="relative bg-white rounded-[3rem] shadow-[0_20px_60px_-15px_rgba(0,0,0,0.1)] border-[8px] border-white overflow-hidden aspect-[9/18]">
                                 {/* Status Bar */}
@@ -65,7 +65,7 @@ export const DigitalDetox: React.FC = () => {
                                             수면 중 디지털 디톡스를 시작할까요?
                                         </p>
                                         <div className="flex items-center justify-between bg-white p-3 rounded-2xl border border-gray-100 mb-4">
-                                            <span className="text-xs text-gray-500 font-medium ml-2">디지털 디톡스 모드</span>
+                                            <span className="text-xs text-gray-500 font-medium ml-2 whitespace-nowrap">디지털 디톡스 모드</span>
                                             <div className="w-12 h-6 bg-purple-900 rounded-full relative p-1 cursor-pointer">
                                                 <div className="w-4 h-4 bg-white rounded-full absolute right-1"></div>
                                             </div>
@@ -81,13 +81,13 @@ export const DigitalDetox: React.FC = () => {
 
                     {/* Center: Connection Design (New) */}
                     <FadeIn delay={300} className="w-full lg:w-auto flex justify-center order-2">
-                        <div className="flex flex-col items-center justify-center shrink-0 z-10 py-6 lg:py-0 w-full lg:w-[180px]">
+                        <div className="flex flex-col items-center justify-center shrink-0 z-10 py-6 lg:py-0 w-full lg:w-[160px]">
                             {/* Success Badge */}
                             <div className="bg-white px-6 py-3 rounded-full shadow-[0_4px_20px_rgba(0,0,0,0.08)] border border-purple-100 flex items-center gap-3 mb-6 relative z-10">
                                 <div className="bg-purple-100 rounded-full w-8 h-8 flex items-center justify-center">
                                     <i className="fa-solid fa-moon text-purple-600 text-[14px]"></i>
                                 </div>
-                                <span className="text-[16px] font-bold text-gray-900">디톡스 성공</span>
+                                <span className="text-[16px] font-bold text-gray-900 whitespace-nowrap">디톡스 성공</span>
                             </div>
 
                             {/* Arrow Container */}
@@ -110,7 +110,7 @@ export const DigitalDetox: React.FC = () => {
                     </FadeIn>
 
                     {/* Right: Limited LP Card (Swapped from Left) */}
-                    <div className="flex-1 w-full max-w-[400px] lg:max-w-[480px] order-3">
+                    <div className="w-full max-w-[400px] lg:max-w-[480px] order-3">
                         <FadeIn delay={400}>
                             <div className="relative group cursor-pointer">
                                 {/* Vintage LP Construction (Scaled up for feature) */}

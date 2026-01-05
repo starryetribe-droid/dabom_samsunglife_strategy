@@ -4,7 +4,7 @@ import { FadeIn } from '../ui/FadeIn';
 
 export const RitualLife: React.FC = () => {
     return (
-        <SectionWrapper id="ritual-life" className="bg-white" pageNumber={17}>
+        <SectionWrapper id="ritual-life" className="bg-gray-50" pageNumber={17}>
             <div className="max-w-7xl mx-auto px-6 w-full h-full flex flex-col justify-center items-center">
                 <FadeIn>
                     <div className="mb-12 text-center">
@@ -13,7 +13,7 @@ export const RitualLife: React.FC = () => {
                             의미있는 삶의 리듬을 '함께' 만들다
                         </h2>
                         <h2 className="text-4xl md:text-5xl font-extrabold text-blue-500 mb-6">
-                            Ritual Life
+                            리추얼 라이프(Ritual Life)
                         </h2>
                         <p className="text-gray-500 text-lg">
                             자발적으로 지속하게 되는 신체·멘탈 케어 경험

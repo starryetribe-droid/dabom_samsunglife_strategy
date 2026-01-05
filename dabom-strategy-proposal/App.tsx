@@ -35,6 +35,7 @@ function App() {
         <ClinicalEvidence />
         <MentalHealthCheckup />
         <Expertise />
+        <BrainFitness />
         <KeyPillars />
         <CoreService />
         <StrategyOne />
@@ -42,7 +43,6 @@ function App() {
         <StrategyThree />
         <Scenarios />
         <DabomTCareIndex />
-        <BrainFitness />
         <B2BPivot />
         <ConceptPivot />
         <Gamification />

@@ -5,7 +5,7 @@ import { SectionWrapper } from './SectionWrapper';
 
 export const StrategyTwo: React.FC = () => {
   return (
-    <SectionWrapper id="strategy-2" className="bg-[#F8FAFC]" pageNumber={8}>
+    <SectionWrapper id="strategy-2" className="bg-white" pageNumber={9}>
       <div className="max-w-[1440px] mx-auto px-6 w-full">
         <div className="text-center mb-10">
           <FadeIn>
